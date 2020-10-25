@@ -27,7 +27,7 @@ def loadArtifact():
     global __location
     global __data_columns
     global __model
-    
+
     with open("./servers/artifacts/columns.json",'r') as f:
         __data_columns = json.load(f)['data_columns']
         __location = __data_columns[3:]
@@ -36,7 +36,7 @@ def loadArtifact():
         __model = pickle.load(f)
     print("loading saved artifacts... done")
 
-if __name__ == "__main__":
+if __name__ == "util":
     loadArtifact()
     print(getLocation())
     print(predict_price('1st Phase JP Nagar',1000, 2, 2))

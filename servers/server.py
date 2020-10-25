@@ -15,6 +15,10 @@ def getLocation():
         
     return response
 
+@app.route('/predictPrice',methods = ['POST'])
+def predictPrice():
+    totoal_sqft = Float
+
 @app.route('/')
 def home():
     return 'Hello Flask'

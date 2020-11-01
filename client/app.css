@@ -16,7 +16,7 @@
 }
 
 .switch-field label {
-	background-color: #e4e4e4;
+	background-color: #2B3B3D;
 	color: rgba(0, 0, 0, 0.6);
 	font-size: 14px;
 	line-height: 1;
@@ -26,6 +26,7 @@
 	border: 1px solid rgba(0, 0, 0, 0.2);
 	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
 	transition: all 0.1s ease-in-out;
+	color: #e4e4e4;
 }
 
 .switch-field label:hover {
@@ -33,8 +34,9 @@
 }
 
 .switch-field input:checked + label {
-	background-color: #a5dc86;
+	background-color: #e6d5b8;
 	box-shadow: none;
+	color: #1C2B2D;
 }
 
 .switch-field label:first-of-type {
@@ -58,11 +60,14 @@
 h2 {
 	font-size: 18px;
 	margin-bottom: 8px;
+	color: #e4e4e4;
+	font-family: sans-serif;
+	font-weight: 200;
 }
 .area{
   font-family: "Roboto", sans-serif;
   outline: 0;
-  background: #f2f2f2;
+  background: #2B3B3D;
   width: 76%;
   border: 0;
   margin: 0 0 10px;
@@ -71,12 +76,13 @@ h2 {
   font-size: 15px;
   height: 35px;
   border-radius: 5px;
+  color: #e4e4e4;
 }
 
 .location{
   font-family: "Roboto", sans-serif;
   outline: 0;
-  background: #f2f2f2;
+  background: #2B3B3D;
   width: 76%;
   border: 0;
   margin: 0 0 10px;
@@ -85,10 +91,11 @@ h2 {
   font-size: 15px;
   height: 40px;
   border-radius: 5px;
+  color: #e4e4e4;
 }
 
 .submit{
-  background: #a5dc86;
+  background: #43859C;
   width: 76%;
   border: 0;
   margin: 25px 0 10px;
@@ -97,37 +104,40 @@ h2 {
 	height: 35px;
 	text-align: center;
 	border-radius: 5px;
+	color: #e4e4e4;
+}
+
+.submit:hover{
+	background: #1f6f8b;
 }
 
 .result{
-		background: #dcd686;
 		width: 76%;
 		border: 0;
 		margin: 25px 0 10px;
 		box-sizing: border-box;
-		font-size: 15px;
+		font-size: 25px;
 		height: 35px;
 		text-align: center;
-}
-
-.img {
-  background: url('https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
-	background-repeat: no-repeat;
-  background-size: auto;
-  background-size:100% 100%;
-  -webkit-filter: blur(5px);
-  -moz-filter: blur(5px);
-  -o-filter: blur(5px);
-  -ms-filter: blur(5px);
-  filter: blur(15px);
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: -1;
+		color: #e4e4e4;
 }
 
 body, html {
   height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+	background-color: #1C2B2D;
+}
+
+img{
+	width: 100%;
+	border: none;
+	margin: 0px;
+}
+
+.grids{
+	
 }

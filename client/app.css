@@ -95,8 +95,9 @@ h2 {
 }
 
 .submit{
+	margin-left: 40%;
   background: #43859C;
-  width: 76%;
+  width: 16%;
   border: 0;
   margin: 25px 0 10px;
   box-sizing: border-box;
@@ -105,19 +106,22 @@ h2 {
 	text-align: center;
 	border-radius: 5px;
 	color: #e4e4e4;
+	transform: translateX(240%);
+	transition-duration: 0.5s;
+	outline: none;
 }
 
 .submit:hover{
-	background: #1f6f8b;
+	background: #e6d5b8;
+	color: #1C2B2D;
 }
 
 .result{
-		width: 76%;
+		width: 93%;
 		border: 0;
 		margin: 25px 0 10px;
 		box-sizing: border-box;
-		font-size: 25px;
-		height: 35px;
+		font-size: 45px;
 		text-align: center;
 		color: #e4e4e4;
 }
@@ -139,5 +143,9 @@ img{
 }
 
 .grids{
-	
+	padding-left: 18%;
+	display: grid;
+	grid-template-columns: auto auto auto;
 }
+
+

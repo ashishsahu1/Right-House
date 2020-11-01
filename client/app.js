@@ -36,7 +36,7 @@ function getBathValue() {
         location: location.value
     },function(data, status) {
         console.log(data.estimated_price);
-        estPrice.innerHTML = "<h2>" + data.estimated_price.toString() + " Lakh</h2>";
+        estPrice.innerHTML = "<p>" + data.estimated_price.toString() + " Lakh</p>";
         console.log(status);
     });
   }

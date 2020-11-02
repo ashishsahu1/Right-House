@@ -13,6 +13,11 @@
 - BHK(Bedroom Hall Kitchen)
 - Location (Based on different cities)
 
+## Cities added
+
+- Bangalore
+
+
 <br>
 
 # Minimum Requirements 📌

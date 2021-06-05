@@ -5,6 +5,10 @@
  RightHouse is a Real Estate Price prediction webapp which uses regression model to predict housing price of different cities based on different parameters.
 
 
+# Flow of the project
+
+![](flow.png)
+
 
 ## Parameters
 
